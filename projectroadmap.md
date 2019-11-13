@@ -5,7 +5,7 @@
    1. https://codereview.stackexchange.com/questions/175832/python-gpa-calculator
    1. https://github.com/jShiohaha/python-gpa-calculator/blob/master/src/gpa.py
 1. **DONE** Study referece code, see how it can be adapted to current project - examine code and see how it can be used to build project
-1. **WORKING**Begin writing code - start writing code
+1. **WORKING** Begin writing code - start writing code
 1. Review code - view progress, access progress and deternine next steps
 1. Test code - test code, determine if its production ready
 1. Fix code - fix problems found during testing
