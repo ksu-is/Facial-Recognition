@@ -16,10 +16,12 @@ MGT3200 = input("MGT 3200: ")
 ISA.append(MGT3200)
 MGT4190 = input("MGT 4190: ")
 ISA.append(MGT4190)
-ISA3100 = input("ISA 3100: ")
-ISA.append(ISA3100)
+IS3100 = input("IS 3100: ")
+ISA.append(IS3100)
 ISA3010 = input("ISA 3010: ")
 ISA.append(ISA3010)
+ISA3100 = input("ISA 3100: ")
+ISA.append(ISA3100)
 ISA3200 = input("ISA 3200: ")
 ISA.append(ISA3200)
 ISA3210 = input("ISA 3210: ")
@@ -47,23 +49,24 @@ print(ISA)
 
 
 
-def calculate():
-    points = 0 
-    for grade in ISA:
-        if grade == "A" or grade == "a":
+#def calculate():
+#
+points = 0 
+for grade in ISA:
+    if grade == "A" or grade == "a":
             points += 4.0
-        elif grade == "B" or grade == "b":
+    elif grade == "B" or grade == "b":
             points += 3.0
-        elif grade == "C" or grade == "c":
+    elif grade == "C" or grade == "c":
             points += 2.0
-        elif grade == "D" or grade == "d":
+    elif grade == "D" or grade == "d":
             points += 1.0
-        elif grade == "F" or grade == "f":
+    elif grade == "F" or grade == "f":
             points += 0.0
-        #if grade.endswith ("+"):
-         #   points = points + 0.3
-        #if grade.endswith ("-"):
-         #   points = points - 0.3
-    gpa = points / 19
-    calculate()
-    print(gpa)
+    if grade.endswith ("+"):
+       points = points + 0.3
+    if grade.endswith ("-"):
+       points = points - 0.3
+    gpa = points / 20
+    #calculate()
+    print ("ISA GPA: ", gpa)
