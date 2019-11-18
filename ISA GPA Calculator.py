@@ -49,8 +49,7 @@ print(ISA)
 
 
 
-#def calculate():
-#
+
 points = 0 
 for grade in ISA:
     if grade == "A" or grade == "a":
@@ -68,5 +67,5 @@ for grade in ISA:
     if grade.endswith ("-"):
        points = points - 0.3
     gpa = points / 20
-    #calculate()
+
     print ("ISA GPA: ", gpa)
