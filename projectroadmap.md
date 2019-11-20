@@ -10,4 +10,4 @@
 1. **DONE** Test code - test code, determine if its production ready
 1. **DONE** Fix code - fix problems found during testing
 1. **WORKING** Review code - correct flaws in the program
-1. Test code - test code, determine if its production ready
+1. ** TESTING** Test code - test code, determine if its production ready
