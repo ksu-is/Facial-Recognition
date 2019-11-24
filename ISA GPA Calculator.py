@@ -63,10 +63,22 @@ for grade in ISA:
             points += 1.0
     elif grade == "F" or grade == "f":
             points += 0.0
-    elif grade.endswith ("+"):
-       points = points + 0.3
-    elif grade.endswith ("-"):
-       points = points - 0.3
+    elif grade == "A+" or grade == "a+":
+            points += 4.3
+    elif grade == "B+" or grade == "b+":
+            points += 3.3
+    elif grade == "C+" or grade == "c+":
+            points += 2.3
+    elif grade == "D+" or grade == "d+":
+            points += 1.3
+    elif grade == "A-" or grade == "a-":
+            points += 3.7
+    elif grade == "B-" or grade == "b-":
+            points += 2.7
+    elif grade == "C-" or grade == "c-":
+            points += 1.7
+    elif grade == "D-" or grade == "d-":
+            points += 0.7        
     gpa = points / 20
 
     print ("ISA GPA: ", gpa)
