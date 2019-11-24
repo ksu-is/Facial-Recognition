@@ -63,9 +63,9 @@ for grade in ISA:
             points += 1.0
     elif grade == "F" or grade == "f":
             points += 0.0
-    if grade.endswith ("+"):
+    elif grade.endswith ("+"):
        points = points + 0.3
-    if grade.endswith ("-"):
+    elif grade.endswith ("-"):
        points = points - 0.3
     gpa = points / 20
 
