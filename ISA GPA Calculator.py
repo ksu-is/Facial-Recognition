@@ -79,6 +79,6 @@ for grade in ISA:
             points += 1.7
     elif grade == "D-" or grade == "d-":
             points += 0.7        
-    gpa = points / 19
+    gpa = points / 20
 
     print ("ISA GPA: ", gpa)
