@@ -48,9 +48,6 @@ ISA.append(Elective)
 
 print(ISA)
 
-
-
-
 points = 0 
 for grade in ISA:
     if grade == "A" or grade == "a":
@@ -81,4 +78,4 @@ for grade in ISA:
             points += 0.7        
     gpa = points / 20
 
-    print ("ISA GPA: ", gpa)
+    print ("ISA GPA: ", n+1, gpa)
