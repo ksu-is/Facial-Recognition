@@ -1,6 +1,6 @@
 # GPA calculator for IS3020 - Adapted by Luis Gonzalez
 print("ISA GPA Calculator")
-print("Enter your grade for the class (A,B,C,D,F,+,-)")
+print("Instructions: Enter your grade for the class (A,B,C,D,F,+,-)")
 
 ISA= []
 
