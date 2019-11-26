@@ -46,7 +46,7 @@ ISA.append(BSEL2)
 Elective = input("Elective: ")
 ISA.append(Elective)
 
-print(ISA)
+print("ISA Grades collected:", ISA)
 
 points = 0 
 for grade in ISA:
