@@ -14,6 +14,6 @@
 1. **DONE** Re-evaluate code - look code over and see where it can be moddified for efficiency
 1. **DONE** Review code - view progress, assess progress and determine next steps
 1. **DONE** Test code - test code, determine if its production ready
-1. **WORKING** Figure out the unintended repeat output of code
-1. Review code - view progress, assess progress and deternime next steps
-1. Test code - test code, determine if its production ready
+1. **DONE** Figure out the unintended repeat output of code
+1. **DONE** Review code - view progress, assess progress and deternime next steps
+1. **DONE** Test code - test code, determine if its production ready
