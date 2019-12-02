@@ -78,4 +78,5 @@ for grade in ISA:
             points += 0.7        
     gpa = points / 20
 
-    print ("ISA GPA: ",gpa)
+#print final GPA
+print ("ISA GPA: ",gpa)
